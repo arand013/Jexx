@@ -18,6 +18,7 @@ const styles = {
     borderRadius: "1rem",
     fontSize: "16px",
     fontWeight: "500",
+    background: "#35363ffa",
   },
   input: {
     padding: "0",
@@ -25,6 +26,7 @@ const styles = {
     fontSize: "23px",
     display: "block",
     width: "100%",
+    background: "#35363ffa",
   },
   priceSwap: {
     display: "flex",
@@ -33,6 +35,7 @@ const styles = {
     color: "#434343",
     marginTop: "8px",
     padding: "0 10px",
+    background: "#35363ffa",
   },
 };
 
@@ -167,7 +170,7 @@ function DEX({ chain, customTokens = {} }) {
     <>
       <Card style={styles.card} bodyStyle={{ padding: "18px" }}>
         <Card style={{ borderRadius: "1rem" }} bodyStyle={{ padding: "0.8rem" }}>
-          <div style={{ marginBottom: "5px", fontSize: "14px", color: "#434343" }}>From</div>
+          <div style={{ marginBottom: "5px", fontSize: "14px", color: "#35363ffa" }}>From</div>
           <div
             style={{
               display: "flex",
@@ -275,7 +278,7 @@ function DEX({ chain, customTokens = {} }) {
                 display: "flex",
                 justifyContent: "space-between",
                 fontSize: "15px",
-                color: "#434343",
+                color: "#ffffff",
                 marginTop: "8px",
                 padding: "0 10px",
               }}
